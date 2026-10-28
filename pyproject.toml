@@ -1,10 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smart-llm-router"
+version = "0.1.0"
+description = "Учебный проект ML System Design: интеллектуальная маршрутизация между LLM"
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.optional-dependencies]
+dev = ["pre-commit==4.7.0", "ruff==0.17.3"]
+
+[tool.setuptools]
+# На этапе проектирования устанавливаются только метаданные и dev-зависимости.
+packages = []
+
 [tool.ruff]
 target-version = "py311"
 line-length = 100
-src = ["src"]
 
 [tool.ruff.lint]
-select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
+select = ["E", "W", "F", "I", "UP", "B", "C4", "SIM"]
+ignore = ["E501"]
 
 [tool.ruff.format]
 quote-style = "double"
