@@ -31,13 +31,14 @@
 
 ## Документация
 
-[Дизайн-документ ML-системы](docs/ml_system_design_doc.md): цели, требования,
+[Дизайн-документ ML-системы](https://github.com/Mixlazer/ML_Sys_Design_HW/blob/hw_1/docs/ml_system_design_doc.md): цели, требования,
 скоуп, предпосылки, постановка задачи, блок-схемы, данные, пилот и риски.
 
 Текущий этап — проектирование и настройка репозитория для ДЗ №1.
 Реализация маршрутизатора и эксперименты запланированы на следующие итерации.
+Материалы первой работы находятся в [ветке hw_1](https://github.com/Mixlazer/ML_Sys_Design_HW/tree/hw_1).
 
-## Структура репозитория
+## Структура рабочей ветки hw_1
 
 ```text
 docs/
@@ -58,6 +59,7 @@ README.md                 — описание проекта
 ### Windows (PowerShell)
 
 ```powershell
+git switch hw_1
 python -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -e ".[dev]"
 .\.venv\Scripts\python.exe -X utf8 -m pre_commit install
@@ -69,6 +71,7 @@ python -m venv .venv
 ### Linux / macOS
 
 ```shell
+git switch hw_1
 python3 -m venv .venv
 .venv/bin/python -m pip install -e ".[dev]"
 .venv/bin/python -m pre_commit install
