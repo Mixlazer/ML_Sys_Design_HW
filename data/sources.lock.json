@@ -1,0 +1,55 @@
+{
+  "snapshot_date": "2026-11-14",
+  "files": [
+    {
+      "file": "data/raw/mgsm_en.tsv.gz",
+      "source": "google-research/url-nlp",
+      "revision": "452a21ad3dae5668c06ceeac21ff073e1e40f9be",
+      "url": "https://raw.githubusercontent.com/google-research/url-nlp/452a21ad3dae5668c06ceeac21ff073e1e40f9be/mgsm/mgsm_en.tsv",
+      "upstream_sha256": "50021d0f28cc957edcb44e7806425b1c7fbd648ddcb9e0a8ec689d10e57d40fa",
+      "upstream_bytes": 61299,
+      "stored_sha256": "b90406a53aa69c61130ec06a25a86347fbf0c2d4bb1235fec45d84995ad67f7c",
+      "stored_bytes": 22990
+    },
+    {
+      "file": "data/raw/mgsm_ru.tsv.gz",
+      "source": "google-research/url-nlp",
+      "revision": "452a21ad3dae5668c06ceeac21ff073e1e40f9be",
+      "url": "https://raw.githubusercontent.com/google-research/url-nlp/452a21ad3dae5668c06ceeac21ff073e1e40f9be/mgsm/mgsm_ru.tsv",
+      "upstream_sha256": "6bd30fd2e80c5bac23f566fb4ae0e6a55a19578401fbf9a01fb21beb3645fef8",
+      "upstream_bytes": 110953,
+      "stored_sha256": "a8e6b8d40ed700dfd99b33c78525788f2f1d4ae6d5cd2d9dec0bff00aa4ec280",
+      "stored_bytes": 29054
+    },
+    {
+      "file": "data/raw/HumanEval.jsonl.gz",
+      "source": "openai/human-eval",
+      "revision": "b9453e8f1865df0a0057a1383767caa400acfbcf",
+      "url": "https://raw.githubusercontent.com/openai/human-eval/b9453e8f1865df0a0057a1383767caa400acfbcf/data/HumanEval.jsonl.gz",
+      "upstream_sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+      "upstream_bytes": 44877,
+      "stored_sha256": "b796127e635a67f93fb35c04f4cb03cf06f38c8072ee7cee8833d7bee06979ef",
+      "stored_bytes": 44877
+    },
+    {
+      "file": "data/raw/belebele_eng_Latn.jsonl.gz",
+      "source": "facebook/belebele",
+      "revision": "7899cdfa4e1e0d733fd77c848e2c273cb1d32be2",
+      "url": "https://huggingface.co/datasets/facebook/belebele/resolve/7899cdfa4e1e0d733fd77c848e2c273cb1d32be2/data/eng_Latn.jsonl",
+      "upstream_sha256": "15af884c2b5994fdc71199e79d553a1864b08ce1b31894aa87f6be925a064a31",
+      "upstream_bytes": 836071,
+      "stored_sha256": "da69ef2a06412f5d628f5ee58dc5a34d31637298bb4ec8574456bfc07f18a608",
+      "stored_bytes": 174476
+    },
+    {
+      "file": "data/raw/belebele_rus_Cyrl.jsonl.gz",
+      "source": "facebook/belebele",
+      "revision": "7899cdfa4e1e0d733fd77c848e2c273cb1d32be2",
+      "url": "https://huggingface.co/datasets/facebook/belebele/resolve/7899cdfa4e1e0d733fd77c848e2c273cb1d32be2/data/rus_Cyrl.jsonl",
+      "upstream_sha256": "e8b81853605b97e993af07a34ad2c0a48ccd8dab80956b0650a161e8fea00de5",
+      "upstream_bytes": 3574715,
+      "stored_sha256": "5bd003015e829f83737aa318cadadeed9f3179a9bd1d25c0e283bcc6e2c6986d",
+      "stored_bytes": 285637
+    }
+  ]
+}

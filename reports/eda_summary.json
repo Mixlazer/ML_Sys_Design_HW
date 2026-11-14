@@ -1,0 +1,52 @@
+{
+  "snapshot_date": "2026-11-14",
+  "rows": 2464,
+  "columns": 17,
+  "groups": 902,
+  "pairs": 1150,
+  "sources": {
+    "Belebele": 1800,
+    "MGSM": 500,
+    "HumanEval": 164
+  },
+  "coverage": {
+    "en": {
+      "general": 900,
+      "math": 250,
+      "python": 164
+    },
+    "ru": {
+      "general": 900,
+      "math": 250,
+      "python": 0
+    }
+  },
+  "missing_prompts": 0,
+  "missing_references": 0,
+  "invalid_targets": 0,
+  "references_with_numeric_separators": 8,
+  "duplicate_option_rows": 4,
+  "eligible_rows": 2460,
+  "duplicate_ids": 0,
+  "duplicate_normalized_prompts": 0,
+  "cross_language_target_disagreements": 0,
+  "naive_leaking_groups": 565,
+  "naive_leaking_rows": 1852,
+  "grouped_leaking_groups": 0,
+  "token_proxy": "cl100k_base, tiktoken 0.12.0, no chat template",
+  "ru_en_token_ratio_median": 2.3253561253561257,
+  "proxy_over_4096": 0,
+  "proxy_over_512": 34,
+  "total_input_tokens_proxy": 506219,
+  "max_prompt_tokens_proxy": 876,
+  "humaneval_asserts": {
+    "count": 164.0,
+    "mean": 7.201219512195122,
+    "std": 3.718928333743308,
+    "min": 1.0,
+    "25%": 5.0,
+    "50%": 7.0,
+    "75%": 9.0,
+    "max": 26.0
+  }
+}

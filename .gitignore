@@ -17,3 +17,6 @@ htmlcov/
 .vscode/
 .DS_Store
 Thumbs.db
+
+# Public benchmark snapshots are downloaded from pinned upstream URLs.
+data/raw/
