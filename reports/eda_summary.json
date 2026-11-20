@@ -1,9 +1,10 @@
 {
   "snapshot_date": "2026-11-14",
   "rows": 2464,
-  "columns": 17,
+  "columns": 21,
   "groups": 902,
   "pairs": 1150,
+  "incomplete_translation_pairs": 0,
   "sources": {
     "Belebele": 1800,
     "MGSM": 500,
@@ -26,15 +27,57 @@
   "invalid_targets": 0,
   "references_with_numeric_separators": 8,
   "duplicate_option_rows": 4,
+  "duplicate_correct_option_rows": 2,
   "eligible_rows": 2460,
+  "mgsm_rev2_replaced_rows_by_language": {
+    "en": 22,
+    "ru": 32
+  },
+  "mgsm_rev2_affected_pairs": 32,
+  "eligible_rows_excluding_revised_pairs": 2396,
   "duplicate_ids": 0,
   "duplicate_normalized_prompts": 0,
+  "compared_cross_language_targets": 1150,
   "cross_language_target_disagreements": 0,
   "naive_leaking_groups": 565,
   "naive_leaking_rows": 1852,
   "grouped_leaking_groups": 0,
+  "heldout_test_exposure": {
+    "naive_split": {
+      "Belebele": {
+        "test_rows": 349,
+        "related_rows": 333
+      },
+      "HumanEval": {
+        "test_rows": 23,
+        "related_rows": 0
+      },
+      "MGSM": {
+        "test_rows": 110,
+        "related_rows": 94
+      }
+    },
+    "grouped_split": {
+      "Belebele": {
+        "test_rows": 400,
+        "related_rows": 0
+      },
+      "HumanEval": {
+        "test_rows": 23,
+        "related_rows": 0
+      },
+      "MGSM": {
+        "test_rows": 88,
+        "related_rows": 0
+      }
+    }
+  },
   "token_proxy": "cl100k_base, tiktoken 0.12.0, no chat template",
   "ru_en_token_ratio_median": 2.3253561253561257,
+  "ru_en_token_ratio_median_by_source": {
+    "Belebele": 2.396082750694378,
+    "MGSM": 1.9480431848852902
+  },
   "proxy_over_4096": 0,
   "proxy_over_512": 34,
   "total_input_tokens_proxy": 506219,

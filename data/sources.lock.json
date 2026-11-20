@@ -51,5 +51,17 @@
       "stored_sha256": "5bd003015e829f83737aa318cadadeed9f3179a9bd1d25c0e283bcc6e2c6986d",
       "stored_bytes": 285637
     }
+  ],
+  "audit_sources": [
+    {
+      "file": "data/raw/mgsm_rev2_replaced_questions.json.gz",
+      "source": "google-research-datasets/MGSM-Rev2",
+      "revision": "5f091edeae66ebc605ac4f98dca07a6c345f0060",
+      "url": "https://raw.githubusercontent.com/google-research-datasets/MGSM-Rev2/5f091edeae66ebc605ac4f98dca07a6c345f0060/MGSM-Rev2/replaced_questions.json",
+      "upstream_sha256": "12d6c51001f66c39e0ace8f4cdbc1b7bcf3ac3fb50194622d45297bb4d4a3cb6",
+      "upstream_bytes": 2138,
+      "stored_sha256": "2dc264f56aff767ada1cf90d0b257899ffa85d4fae4718fdb8a06a0b1bcd63de",
+      "stored_bytes": 565
+    }
   ]
 }
