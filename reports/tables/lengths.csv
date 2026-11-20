@@ -1,0 +1,6 @@
+source,language,count,minimum,median,p95,maximum
+Belebele,en,900,62,142.0,206.0,351
+Belebele,ru,900,113,338.0,497.0,876
+HumanEval,en,164,38,117.0,270.09999999999997,391
+MGSM,en,250,23,55.0,102.09999999999997,132
+MGSM,ru,250,44,108.0,206.64999999999995,280

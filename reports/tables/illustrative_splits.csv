@@ -1,0 +1,16 @@
+source,language,grouped_split,count
+Belebele,en,profile,485
+Belebele,en,test,200
+Belebele,en,validation,215
+Belebele,ru,profile,485
+Belebele,ru,test,200
+Belebele,ru,validation,215
+HumanEval,en,profile,111
+HumanEval,en,test,23
+HumanEval,en,validation,30
+MGSM,en,profile,156
+MGSM,en,test,44
+MGSM,en,validation,50
+MGSM,ru,profile,156
+MGSM,ru,test,44
+MGSM,ru,validation,50
